@@ -1,0 +1,77 @@
+html, body {
+	text-align: center;
+}
+
+body {
+	text-align: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	margin:0px;
+	padding:0px;
+}
+
+.center{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+body hr{
+	width: 75%;
+	color:#335e08;
+	height:1px;
+}
+
+#pagetop{
+	background-color:#c9deb6;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-bottom-width:1px;
+	border-color:#4b870e;
+	position:fixed;
+	top:0px;
+	border-top-width:40px;
+	border-top-color:#66bf0b;
+}
+
+#pagetop ul li , #pagetop ul, #pagetop ul li a, #pagetop ul li a:visited{
+	margin:0px;
+	padding:0px;
+	display:inline;
+	text-align:center;
+	line-height:40px;
+	padding-left:4px;
+	padding-right:4px;
+	font-size:22px;
+	font-weight:bold;
+	text-decoration:none;
+	height:40px;
+}
+
+#pagetop a:link{
+color:#335e08;
+}
+
+#pagetop ul li a:hover{
+	color:#65A9ED;
+}
+
+#page{
+	border-style:solid;
+	border-width:20px;
+	border-top-width:40px;
+	border-color:#66bf0b;
+}
+
+#experience ul li, ul{
+	color:#4d4d4d;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+.category{
+padding-top:80px;
+}
+
