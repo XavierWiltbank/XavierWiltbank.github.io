@@ -1,9 +1,4 @@
-html, body {
-	text-align: center;
-}
-
 body {
-	text-align: left;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 15px;
 	margin:0px;
@@ -15,11 +10,6 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
-}
-body hr{
-	width: 75%;
-	color:#335e08;
-	height:1px;
 }
 
 #pagetop{
@@ -40,12 +30,13 @@ body hr{
 	display:inline;
 	text-align:center;
 	line-height:40px;
-	padding-left:4px;
-	padding-right:4px;
+	padding-left:8px;
+	padding-right:8px;
 	font-size:22px;
 	font-weight:bold;
 	text-decoration:none;
 	height:40px;
+	color:#000000;
 }
 
 #pagetop a:link{
@@ -53,7 +44,7 @@ color:#335e08;
 }
 
 #pagetop ul li a:hover{
-	color:#65A9ED;
+	color:#66bf0b;
 }
 
 #page{
@@ -72,6 +63,45 @@ color:#335e08;
 }
 
 .category{
-padding-top:80px;
+	padding-top:80px;
+}
+
+.show {
+	height:0px;
+	color:#ffffff;
+	max-height:0px;
+}
+
+#aboutMe a{
+padding:30px;
+}
+
+a:hover  + .show{
+	height:500px;
+	transition: max-height .35s ease-in-out;  
+	color: #4d4d4d;
+	overflow: hidden;
+	max-height: 50px;
+	background-color:#c9deb6;
+	border-radius:15px;
+}
+
+#aboutMe ul, ul li{
+	font-size:18px;
+	color:#4d4d4d;
+	margin:0px;
+	padding:18px;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+hr.styled {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(36,66,7,0), rgba(36,66,7,0.75), rgba(36,66,7,0));
+    background-image:    -moz-linear-gradient(left, rgba(36,66,7,0), rgba(36,66,7,0,75), rgba(36,66,7,0));
+    background-image:     -ms-linear-gradient(left, rgba(36,66,7,0), rgba(36,66,7,0.75), rgba(36,66,7,0));
+    background-image:      -o-linear-gradient(left, rgba(36,66,7,0), rgba(36,66,7,0.75), rgba(36,66,7,0));
+	margin-top:105px;
 }
 
