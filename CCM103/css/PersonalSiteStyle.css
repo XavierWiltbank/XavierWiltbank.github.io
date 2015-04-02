@@ -10,6 +10,8 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
+	background-color:#D6FFCF;
+	font-size:18px;
 }
 
 #pagetop{
@@ -66,31 +68,8 @@ color:#335e08;
 	padding-top:80px;
 }
 
-.show {
-	height:0px;
-	color:#ffffff;
-	max-height:0px;
-}
-
-#aboutMe a{
-padding:30px;
-}
-
-a:hover  + .show{
-	height:500px;
-	transition: max-height .35s ease-in-out;  
-	color: #4d4d4d;
-	overflow: hidden;
-	max-height: 50px;
-	background-color:#c9deb6;
-	border-radius:15px;
-}
-
 #aboutMe ul, ul li{
 	font-size:18px;
-	color:#4d4d4d;
-	margin:0px;
-	padding:18px;
 	list-style-type:none;
 	text-decoration:none;
 }
