@@ -12,6 +12,7 @@ body {
 	text-align: center;
 	background-color:#D6FFCF;
 	font-size:18px;
+	border-radius:5px;
 }
 
 #pagetop{
@@ -24,6 +25,7 @@ body {
 	top:0px;
 	border-top-width:40px;
 	border-top-color:#66bf0b;
+	border-radius:5px;
 }
 
 #pagetop ul li , #pagetop ul, #pagetop ul li a, #pagetop ul li a:visited{
