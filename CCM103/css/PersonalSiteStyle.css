@@ -25,7 +25,10 @@ body {
 	top:0px;
 	border-top-width:40px;
 	border-top-color:#66bf0b;
-	border-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:0px;
+	border-right-right-radius:0px;
 }
 
 #pagetop ul li , #pagetop ul, #pagetop ul li a, #pagetop ul li a:visited{
