@@ -10,7 +10,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
-	background-color:#D6FFCF;
+	background-color:#D8FF9E;
 	font-size:18px;
 	border-radius:5px;
 }
@@ -55,6 +55,7 @@ color:#335e08;
 }
 
 #page{
+	color:#23330B;
 	border-style:solid;
 	border-width:20px;
 	border-top-width:40px;
@@ -62,7 +63,6 @@ color:#335e08;
 }
 
 #experience ul li, ul{
-	color:#4d4d4d;
 	margin:0px;
 	padding:0px;
 	list-style-type:none;
@@ -71,6 +71,8 @@ color:#335e08;
 
 .category{
 	padding-top:80px;
+	padding-right:50px;
+	padding-left:50px;
 }
 
 #aboutMe ul, ul li{
