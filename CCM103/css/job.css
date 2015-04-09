@@ -38,9 +38,9 @@ padding-top:15px;
 }
 
 .embedR{
-	align:right;
+	float:right;
 }
 
 .embedL{
-	align:left;
+	float:left;
 }
