@@ -20,7 +20,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #7F2626;
+    color: #CC140F;
 }
 
 /* mouse over link */
@@ -35,4 +35,12 @@ a:active {
 
 .row{
 padding-top:15px;
+}
+
+.embedR{
+	align:right;
+}
+
+.embedL{
+	align:left;
 }
