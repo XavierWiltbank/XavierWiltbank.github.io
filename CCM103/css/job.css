@@ -1,0 +1,38 @@
+.button{
+	background-color:#FF8B8A;
+	border-radius:5px;
+	text-align:center;
+	font-size:48px;
+}
+p{
+	text-align:center;
+}
+
+body{
+	background-color:#FF4C4C;
+	color:#7F2626;
+	font-size:36px;
+}
+
+a:link {
+    color: #7F0000;
+}
+
+/* visited link */
+a:visited {
+    color: #7F2626;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a:active {
+    color: #FF0000;
+}
+
+.row{
+padding-top:15px;
+}
