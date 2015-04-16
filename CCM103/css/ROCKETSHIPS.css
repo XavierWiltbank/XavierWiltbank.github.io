@@ -44,6 +44,10 @@ hr{
 	background-color:#FFCaBf;
 }
 
+a.btn-main:link{
+	color:#5C0906;
+}
+
 a.btn-main:hover{
 	background-color:#DB160E;
 	text-decoration: underline;
