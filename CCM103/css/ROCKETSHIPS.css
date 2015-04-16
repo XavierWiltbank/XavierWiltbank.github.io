@@ -1,0 +1,73 @@
+.body{
+	color:#24302A;
+
+}
+
+.navbarBackground{
+	background-color:#410101;
+}
+
+h1{
+	font-size:64px;
+	color:#DB160E;
+	text-shadow: 2px 2px 2px #eee;
+
+}
+
+p{
+	color:#5C0906;
+}
+
+.font-awesomeLG{
+	font-size:48px;
+}
+
+.font-awesomeXL{
+	font-size:144px;
+}
+	
+hr{
+	border-color:#DB160E;
+}
+
+.invis{
+	color:#F5B8B5;
+}
+
+.btn-main{
+	background-color: #DB160E;
+	color: #F5B8B5;
+	border-color: #5C0906;
+}
+
+.btn-details{
+	background-color:#FFCaBf;
+}
+
+a.btn-main:hover{
+	background-color:#DB160E;
+	text-decoration: underline;
+	color:#661107;
+}
+
+/* unvisited link */
+a:link {
+    color: #DB160E;
+	text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #5C2421;
+}
+
+/* mouse over link */
+a:hover {
+    color: #A8110B;
+}
+
+/* selected link */
+a:active {
+    color: #A8110B;
+}
+
