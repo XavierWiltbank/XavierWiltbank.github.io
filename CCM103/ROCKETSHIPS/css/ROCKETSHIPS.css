@@ -75,3 +75,10 @@ a:active {
     color: #A8110B;
 }
 
+.currentPage{
+background-color: #000;
+}
+
+.AvoidNavbar{
+	margin-top: 100px;
+}
