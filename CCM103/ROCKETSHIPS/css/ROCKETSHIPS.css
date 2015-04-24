@@ -81,4 +81,10 @@ background-color: #000;
 
 .AvoidNavbar{
 	margin-top: 100px;
+	background-color: #F5B8B5;
+}
+
+.mugShot{
+	width: 80px;
+	height: 80px;
 }
